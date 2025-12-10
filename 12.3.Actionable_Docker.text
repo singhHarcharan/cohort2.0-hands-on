@@ -1,0 +1,60 @@
+Slides Link: https://projects.100xdevs.com/tracks/docker-easy/docker-1
+
+- Learnt how to start MongoDB and Postgres using docker commands locally, rather than going through conventional way to start MongoDB and Postgres using GUI.
+
+- What are we using docker for?
+
+- Where can we get packages (images files) from? -> Docker Hub
+
+
+Common commands to know:
+docker run
+docker ps
+docker kill
+
+
+Running an image:
+    1. Running a simple image
+    Let’s say you wan’t to run MongoDB locally https://hub.docker.com/_/mongo
+    
+    "docker run mongo"
+
+
+    You will notice you can’t open it in MongoDB Compass . 
+    notion image
+    Adding a port mapping
+    The reason is that you haven’t added a port mapping
+    
+    "docker run  -p 27017:27017 mongo"
+
+
+    2. Starting in detached mode
+    Adding -d will ensure it starts in the background
+    "docker run -d -p 27017:27017 mongo"
+
+
+    Inspecting a container
+    "docker ps"
+
+    This will show you all the containers you are running.
+
+    Stopping a container
+    "docker kill <container_id>"
+
+    Will stop the container that you are running
+
+
+
+
+    Common packages
+    
+    Mongo
+    "docker run -d -p 27017:27017 mongo"
+
+    
+    Postgres
+    "docker run -e POSTGRES_PASSWORD=mysecretpassword -d -p 5432:5432 postgres"
+
+    The connection string for this postgres would be 
+    "postgresql://postgres:mysecretpassword@localhost:5432/postgres"
+ 
