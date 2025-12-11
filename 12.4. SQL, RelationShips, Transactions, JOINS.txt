@@ -1,0 +1,3 @@
+Slides Link : https://projects.100xdevs.com/tracks/YOSAherHkqWXhOdlE4yE/sql-1
+
+Read about SQL, Relationships, Transactions, JOINS
