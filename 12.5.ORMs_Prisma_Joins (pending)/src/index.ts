@@ -8,3 +8,4 @@
 // - Installing Prisma in Fresh Typescript Application
 // - Generating Prisma client to get access of table we create using prisma
 // - Relationships in Prisma
+//
