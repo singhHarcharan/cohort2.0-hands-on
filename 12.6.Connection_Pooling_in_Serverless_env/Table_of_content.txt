@@ -1,0 +1,7 @@
+Blog Link : https://www.prisma.io/docs/orm/prisma-client/deployment/edge/deploy-to-cloudflare
+
+- What is Connection Pooling
+- Why does Simple Prisma project does not work in Serverless Environment / backend (cloudflare workers)
+-  How to create a project / backend for cloudflare worker where database is connected via Prisma
+- Basically, "Prisma Accelerate" is the thing where we give our DB URL and it gives us URL with connection pooling
+- 
