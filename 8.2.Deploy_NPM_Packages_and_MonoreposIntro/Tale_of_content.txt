@@ -1,0 +1,2 @@
+- How to deploy NPM packages on npmjs.org and use them in other projects
+- Introduction to Monorepos (Pending). Need to cover this in separate video (week-16.1, 16.2)
